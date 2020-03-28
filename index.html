@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+<body>
+  <section class="page-intro">
+    <div class="navbar">
+  <img src="images/logo-bookmark.svg" alt="logo"/>
+  <ul>
+    <li><a href="#features">FEATURES</a></li>
+    <li><a href="#download">DOWNLOAD</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><button>LOGIN</button></li>
+  </ul>
+</div>
+<div class="hero-description">
+  <div class="hero-details">
+  <h1>A Simple Bookmark Manager</h1><br>
+  <p>A clean and simple interface to organize your favourite websites. Open a new 
+    browser tab and see your sites load instantly. Try it for free.
+  </p><br>
+  <div class="hero-buttons">
+  <button>Get it on Chrome</button>
+  <button>Get it on Firefox</button>
+</div>
+  </div>
+  <div>
+    <img src="images/illustration-hero.svg" alt="hero image"/>
+    <p class="right-curved-shape"></p>
+  </div>
+</div>
+</section>
+ <section class="features" id="features">
+   <div class="section-title"> 
+    <h2>Features</h2><br>
+    <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+     Your bookmarks sync between your devices so you can access them on the go.
+    </p>
+   </div>
+   <ul>
+      <li class="active" data-list="illustration-features-tab-1">Simple Bookmarking</li>
+      <li data-list="illustration-features-tab-2">Speedy Searching</li>
+      <li data-list="illustration-features-tab-3">Easy Sharing</li>
+   </ul>
+   <div class="features-tab show illustration-features-tab-1">
+     <div>
+      <img src="images/illustration-features-tab-1.svg"/>
+      <p class="left-curved-shape"></p>
+     </div>
+     <div class="features-description">
+    <h3>Bookmark in one click</h3><br>
+    <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+    gives you complete control over how you manage your favourite sites.</p><br>
+   <button>More Info</button>
+  </div>
+   </div>
+    <div class="features-tab illustration-features-tab-2">
+    <div>
+      <img src="images/illustration-features-tab-2.svg"/>
+      <p class="left-curved-shape"></p>
+    </div>
+    <div class="features-description">
+    <h3>Intelligent search</h3><br>
+
+    <p>Our powerful search feature will help you find saved sites in no time at all. 
+      No need to trawl through all of your bookmarks.
+    </p><br>
+
+    <button>More Info</button>
+  </div>
+   </div>
+   <div class="features-tab illustration-features-tab-3">
+    <div>
+      <img src="images/illustration-features-tab-3.svg"/>
+      <p class="left-curved-shape"></p>
+    </div>
+    <div class="features-description">
+    <h3>Share your bookmarks</h3><br>
+
+    <p>Easily share your bookmarks and collections with others. Create a shareable 
+      link that you can send at the click of a button.
+    </p><br>
+
+    <button>More Info</button>
+  </div> 
+ </div> 
+ </section>
+ <section class="browser-downloads" id="download">
+  <div class="section-title">
+    <h2>Download the extension</h2><br>
+    <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+      got a favourite you’d like us to prioritize.
+    </p>
+   </div>
+   <div class="browser-details">
+   <div class="browser">
+    <h5>Add to Chrome</h5><br>
+    <img src="images/logo-chrome.svg"/><br><br>
+    <p>Minimum version 62</p><br>
+    <img class="dotted-lines" src="images/bg-dots.svg"/><br><br>
+    <button>Add & Install Extension</button>
+   </div>
+   <div class="browser firefox">
+    <h5>Add to Firefox</h5><br>
+    <img src="images/logo-firefox.svg"/><br><br>
+    <p>Minimum version 65</p><br>
+    <img class="dotted-lines" src="images/bg-dots.svg"/><br><br>
+    <button>Add & Install Extension</button>
+   </div>
+   <div class="browser opera">
+    <h5>Add to Opera</h5><br>
+    <img src="images/logo-opera.svg"/><br><br>
+    <p>Minimum version 46</p><br>
+    <img class="dotted-lines" src="images/bg-dots.svg"/><br><br>
+    <button>Add & Install Extension</button>
+   </div>
+  </div>
+ </section>
+ <section class="faq-section">
+  <div class="section-title">
+    <h2>Frequently Asked Questions</h2><br>
+    <p>Here are some of our FAQs. If you have any other questions you’d like 
+      answered please feel free to email us.
+    </p>
+   </div>
+   <!--Accordion here-->
+   <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_symbol-->
+    <div class="question-answer-group">
+   <div class="question"> 
+     <p><strong>What is Bookmark?</strong></p><img src="images/icon-arrow.svg"><!--Adjust to change color to red and change arrow direction-->
+   </div><br><br>
+   <div class="answer">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+    justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+  </div><br><br>
+   <div class="question">
+    <p><strong>How can I request a new browser?</strong></p><img src="images/icon-arrow.svg"><!--Adjust to change color to red and change arrow direction-->
+  </div><br><br>
+  <div class="answer">
+    <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+      Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+      ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+      Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+  </div><br><br>
+  <div class="question">
+    <p><strong>Is there a mobile app?</strong></p><img src="images/icon-arrow.svg"><!--Adjust to change color to red and change arrow direction-->
+</div> <br><br>
+  <div class="answer">
+    <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+      urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+      sollicitudin ex et ultricies bibendum.</p>
+  </div><br><br>
+  <div class="question">
+    <p><strong>What about other Chromium browsers?</strong></p><img src="images/icon-arrow.svg"><!--Adjust to change color to red and change arrow direction-->
+   </div> <br><br>
+  <div class="answer"> 
+    <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+      vitae neque eget nisl gravida pellentesque non ut velit.</p>
+  </div>
+</div>
+<button>More Info</button>
+ </section> 
+<section class="numbers" id="contact">
+   35,000+ ALREADY JOINED<br>
+   <h3>Stay up-to-date with what we’re doing</h3>
+   <input placeholder="Enter your email address" type="email"><button>Contact Us</button>
+ </section>
+ <section class="footer">
+   <img class="footer-logo" src="images/logo-bookmark.svg"/>
+   <ul>
+     <li><a href="#features">FEATURES</a></li>
+     <li><a href="#download">DOWNLOAD</a></li>
+     <li><a href="#contact">CONTACT</a></li>
+   </ul>
+   <div class="icon-group">
+   <a href="#"><img src="images/icon-facebook.svg"/></a>
+   <a href="#"><img src="images/icon-twitter.svg"/></a>
+  </div>
+ </section> 
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#include Github">Elizabeth Akpan</a>.
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
